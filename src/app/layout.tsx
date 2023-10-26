@@ -16,7 +16,7 @@ type RootLayoutProps = {
 const RootLayout: FC<RootLayoutProps> = ({ children }) => {
   return (
     <html className={inter.variable} lang="pt_BR">
-      <body>{children}</body>
+      <body className="bg-zinc-950 text-zinc-50 antialiased">{children}</body>
     </html>
   )
 }
