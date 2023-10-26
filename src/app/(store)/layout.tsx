@@ -7,7 +7,7 @@ type StoreLayoutProps = {
 
 const StoreLayout: FC<StoreLayoutProps> = ({ children }) => {
   return (
-    <div className="grid-rows-app mx-auto grid min-h-screen w-full max-w-[100rem] gap-5 p-8  ">
+    <div className="mx-auto grid min-h-screen w-full max-w-[100rem] grid-rows-app gap-5 p-8  ">
       <Header />
       {children}
     </div>
