@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const HomePage = () => {
   return (
-    <div className="grid-rows-6 grid max-h-[53.75rem] gap-6">
+    <div className="grid-rows-6 grid max-h-[53.75rem] grid-cols-9 gap-6">
       <Link
         href={'/'}
         className="group relative col-span-6 row-span-6 flex items-end justify-center overflow-hidden rounded-lg bg-zinc-900"
